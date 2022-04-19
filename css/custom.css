@@ -1,10 +1,14 @@
 /* General styles */
+
 body {
   font-size: 15px;
   line-height: 24px;
   font-family: "futura_ltbook", sans-serif;
   color: #484848;
 }
+
+
+
 h1,
 h2,
 h3,
@@ -14,7 +18,7 @@ h6 {
   font-weight: bold;
   text-transform: uppercase;
   color: #484848;
-  font-family: "futura_ltbold", sans-serif;
+  
 }
 h1 {
   font-size: 70px;
@@ -174,7 +178,8 @@ footer a,
   width:85%;
 }
 .list-inline.info > li {
-  padding-left: 38%;
+  padding-left: 30%;
+  
 }
 
 
@@ -201,17 +206,13 @@ border-color:#f89936;
 .list-inline.info a,
 .list-inline.social_icon a {
   color: #3F3E43;
-  font-family: "futura_ltbook", sans-serif;
+  
 }
 .list-inline.info a:hover,
 .list-inline.social_icon a:hover {
   color: #555;
 }
-.list-inline.info a .fa,
-.list-inline.social_icon a .fa {
-  font-size: 20px;
-  vertical-align: text-top;
-}
+
 .list-inline.social_icon {
   float: left;
   margin: 0;
@@ -312,7 +313,7 @@ nav.navbar.bootsnav ul.nav > li > a:focus {
 /* Carousel */
 .home .carousel {
   position: relative;
-  height: 700px;
+  height: 500px;
   display: inline-block;
 }
 .home .carousel .item img {
@@ -340,10 +341,7 @@ nav.navbar.bootsnav ul.nav > li > a:focus {
   color: #fff;
   margin-bottom: 20px;
 }
-.carousel-caption h1.second_heading {
-  color: #fa0000;
-  margin-bottom: 35px;
-}
+
 .carousel-caption > h3 {
   color: #fff;
   font-family: "futura_ltbook", sans-serif;
@@ -939,7 +937,7 @@ footer::after {
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 100px) {
   .list-inline.info > li {
     padding: 0 12px 0 0;
   }
