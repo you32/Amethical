@@ -363,6 +363,7 @@ nav.navbar.bootsnav ul.nav > li > a:focus {
 
 .infos-li li {
   display: inline;
+  width: 2em;
 }
 
 .amethical-text {
@@ -462,7 +463,7 @@ nav.navbar.bootsnav ul.nav > li > a:focus {
   border-radius: 5px;
   color: #fff;
   font-family: "Poppins", sans-serif;
-  font-size: 16px;
+  font-size: 1.3em;
   padding: 10px 25px;
   margin-right: 8%;
   margin-top: 5%;
@@ -483,7 +484,7 @@ nav.navbar.bootsnav ul.nav > li > a:focus {
   border-radius: 5px;
   color: #243a68;
   font-family: "Poppins", sans-serif;
-  font-size: 16px;
+  font-size: 1.3em;
   padding: 10px 25px;
   margin-right: 8%;
   margin-top: 5%;
@@ -925,7 +926,6 @@ nav.navbar.bootsnav ul.nav > li > a:focus {
 .form-infos {
   position: absolute;
   display: inline-block;
-
   width: 50%;
   top: 35%;
   left: 33%;
@@ -1147,7 +1147,9 @@ footer::after {
 }
 
 /* Responsive Styles for various devices */
-
+.about-pohne {
+  width: 3em;
+}
 @media (max-width: 1600px) {
   .call {
     height: 12em;
@@ -1225,6 +1227,14 @@ footer::after {
 }
 
 @media (max-width: 1199px) {
+  .btn.about_btn {
+    font-size: 0.8em;
+  }
+
+  .btn.about_btn-num {
+    font-size: 0.8em;
+  }
+
   .home {
     margin-top: auto;
   }
@@ -1301,31 +1311,31 @@ footer::after {
   }
   .call {
     height: 12em;
-    width: 20em;
+    width: 30%;
     border: 1px solid #f89936;
     border-radius: 8px;
     position: absolute;
-    left: 5%;
+    left: 35%;
     top: 15%;
   }
 
   .email {
     height: 12em;
-    width: 20em;
+    width: 36%;
     border: 1px solid #f89936;
     border-radius: 8px;
     position: absolute;
-    left: 5%;
+    left: 32%;
     top: 45%;
   }
 
   .map {
     height: 12em;
-    width: 20em;
+    width: 30%;
     border: 1px solid #f89936;
     border-radius: 8px;
     position: absolute;
-    left: 5%;
+    left: 35%;
     top: 85%;
   }
 
@@ -1398,7 +1408,7 @@ footer::after {
     width: 317px;
   }
   #contact_form .btn.submit_btn {
-    width: 95px;
+    width: 5em;
   }
 }
 
@@ -1411,31 +1421,31 @@ footer::after {
   }
   .call {
     height: 12em;
-    width: 20em;
+    width: 50%;
     border: 1px solid #f89936;
     border-radius: 8px;
     position: absolute;
-    left: 5%;
+    left: 25%;
     top: 15%;
   }
 
   .email {
     height: 12em;
-    width: 20em;
+    width: 60%;
     border: 1px solid #f89936;
     border-radius: 8px;
     position: absolute;
-    left: 5%;
+    left: 30%;
     top: 45%;
   }
 
   .map {
     height: 12em;
-    width: 20em;
+    width: 50%;
     border: 1px solid #f89936;
     border-radius: 8px;
     position: absolute;
-    left: 5%;
+    left: 25%;
     top: 85%;
   }
 
@@ -1512,40 +1522,40 @@ footer::after {
 }
 
 @media (max-width: 767px) {
-  .social-foot {
-    display: none;
+  .form-infos {
+    left: 26%;
   }
   .foot-img {
     display: none;
   }
   .call {
     height: 12em;
-    width: 20em;
+    width: 54%;
     border: 1px solid #f89936;
     border-radius: 8px;
     position: absolute;
-    left: 5%;
+    left: 26%;
     top: 15%;
   }
 
   .email {
     height: 12em;
-    width: 20em;
+    width: 70%;
     border: 1px solid #f89936;
     border-radius: 8px;
     position: absolute;
-    left: 5%;
+    left: 17%;
     top: 45%;
   }
 
   .map {
     height: 12em;
-    width: 20em;
+    width: 50%;
     border: 1px solid #f89936;
     border-radius: 8px;
     position: absolute;
-    left: 5%;
-    top: 85%;
+    left: 25%;
+    top: 84%;
   }
 
   .amethical {
@@ -1638,6 +1648,9 @@ footer::after {
 }
 
 @media (max-width: 479px) {
+  .form-infos {
+    left: 26%;
+  }
   .social-foot {
     display: none;
   }
