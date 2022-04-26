@@ -166,7 +166,16 @@ footer a,
 }
 
 /*End off Preloader*/
+.home {
+  margin-top: 60px;
+}
 
+.sidebar {
+  display: none;
+}
+#main {
+  display: none;
+}
 /* Top Nav */
 
 .top_nav {
@@ -1216,6 +1225,74 @@ footer::after {
 }
 
 @media (max-width: 1199px) {
+  .home {
+    margin-top: auto;
+  }
+
+  /*sidebar*/
+
+  /*Position and style for the sidebar*/
+  .to-hide {
+    display: none;
+  }
+  .sidebar {
+    display: block;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    /*Stays in place */
+    background-color: transparent;
+    /*green*/
+    overflow-x: hidden;
+    /*for Disabling horizontal scroll */
+  }
+  /* Position and style for the sidebar links */
+
+  .sidebar a {
+    padding: 10px 10px 10px;
+    font-size: 25px;
+    color: #111;
+    display: block;
+    transition: 0.3s;
+  }
+  /* the links change color when mouse hovers upon them*/
+
+  .sidebar a:hover {
+    color: #f89936;
+    box-shadow: 0px 0px 8px 1px #f89936;
+  }
+  /* Position and style the for cross button */
+
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+  }
+  /* Style for the sidebar button */
+
+  .openbtn {
+    background-color: transparent;
+    color: #111;
+    padding: 10px 10px 10px;
+    border: none;
+    width: 4em;
+  }
+  /* the sidebar button changes 
+      color when mouse hovers upon it */
+  .openbtn > img:hover {
+    box-shadow: 0px 0px 8px 1px #f89936;
+  }
+
+  /* pushes the page content to the right
+      when you open the side navigation */
+
+  #main {
+    display: block;
+    transition: margin-left 0.5s;
+    /* If you want a transition effect */
+    padding: 10px;
+  }
+
   .social-foot {
     display: none;
   }
